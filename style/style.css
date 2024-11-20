@@ -1,0 +1,496 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+:root {
+    --razmer45: 40px;
+    --white: white;
+}
+.cite {
+    width: 90%;
+    margin: 0 auto;
+}
+.navigation {
+    height: 58px;
+    margin: 67px 0px 47px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-logo {
+    width: 179px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 58px;
+    gap: 10px;
+}
+.navigation-logo h2 {
+    font-weight: 600;
+    font-size: 28px;
+}
+.navigation ul {
+    list-style: none;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-size: 18px;
+}
+.navigation ul a {
+    text-decoration: none;
+    color: #9E9E9E;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.navigation ul a:hover {
+    color: #000000;
+    font-weight: 600;
+    transition: 0.4s;
+}
+.navigation-kirish {
+    width: 206px;
+    height: 58px;
+    background-color: #1D75F8;
+    border-radius: 16px;
+    color: white;
+    border: none;
+    font-size: 21px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.navigation-kirish:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.4s;
+}
+
+
+.asosiy-menu__struktura {
+    background-color: #F9B21D;
+    height: 700px;
+    border-radius: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yangi-btn {
+    margin-top: 50px;
+}
+.asosiy-menu__content {
+    width: 90%;
+    height: 70%;
+    display: flex;
+}
+.asosiy-menu__item1{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-right: 20px;
+
+}
+.asosiy-menu__item2 {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.asosiy-menu__item2 img {
+    height: 100%;
+    width: 100%;
+}
+.asosiy-menu__text h2 {
+    font-size: 53px;
+    font-weight: 800;
+    color: white;
+}
+.asosiy-menu__content p {
+    font-size: 35px;
+    color: white;
+}
+.asosiy-menu__text {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.biz-haqimizda {
+    width: 90%;
+    height: 419px;
+    margin: 91px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.yana-pastki {
+    width: 670px;
+    height: 197px;
+    font-size: 64px;
+    font-weight: 800;
+    border-radius: 32px;
+}
+.biz-haqimizda h2 {
+    font-size: 64px;
+    font-weight: 800;
+}
+.biz-haqimizda p {
+    font-size: 42px;
+
+}
+.buttons {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.teachers {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(198, 242, 93, 1);
+    height: 780px;
+    border-radius: 48px;
+    padding: 94px 98px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+.teachers h2:nth-child(1){
+    font-size: var(--razmer45);
+    font-weight: 800;
+}
+.teachers h2:nth-child(2) {
+    font-size: var(--razmer45);
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.teachers img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.teacher-lastchild {
+    font-size: var(--razmer45);
+    font-weight: 800;
+}
+.teachers-paragraph {
+    font-size: var(--razmer45);
+    font-weight: 500;
+    text-align: center;
+}
+.cite-kurses {
+    width: 90%;
+    height: 500px;
+    background-color: rgb(1, 101, 251);
+    margin: 100px auto;
+    border-radius: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+}
+.cite-kurses__item {
+    width: 70%;
+    height: 90%;
+}
+.cite-kurses__item h2:first-child {
+    font-size: 65px;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 50px;
+}
+.cite-kurses__buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.cite-kurses__item button {
+    width: 80%;
+    height: 130px;
+    background-color: var(--white);
+    color: rgba(29, 117, 249, 1);
+    font-size: 35px;
+    font-weight: 700;
+    border-radius: 24px;
+    border: none;
+    margin-bottom: 18px;
+}
+.cite-kurses__text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.cite-kurses__items p{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--white);
+
+}
+.cite-kurses__items {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.cite-avzalliklari {
+    width: 90%;
+    margin: 0 auto;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px ;
+}
+.cite-afzalliklari__item {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box-nikname, .tarif-nikname{
+    font-weight: 800;
+    font-size: 65px;
+}
+.cite-box {
+    height: 28%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 100px;
+}
+.cite-item {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    width: 50%;
+}
+.cite-item p{
+    font-size: 30px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 500;
+}
+.cite-item h3 {
+    width: 115px;
+    height: 115px;
+    background-color: rgba(198, 242, 93, 1);
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+    font-weight: 800;
+}
+.tarif {
+    width: 90%;
+    height: 100vh;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.tarif-box {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tarif-item {
+    width: 30%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.tarif-item__content {
+    height: 15%;
+    background-color: rgba(244, 222, 178, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarif-item__content2 {
+    height: 15%;
+    background-color: rgba(198, 242, 93, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarif-item__content3 {
+    height: 15%;
+    background-color: rgba(57, 53, 46, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(249, 178, 29, 1);
+}
+.tarif-item__content h3, .tarif-item__content2 h3, .tarif-item__content3 h3 {
+    font-size: 35px;
+    font-weight: 700;
+}
+.tarif-item__unordered{
+    margin: 20px 0 0 50px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.tarif-narx {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+    gap: 20px;
+}
+.tarif-narx button {
+    width: 70%;
+    height: 60px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: rgba(249, 178, 29, 1);
+    border-radius: 20px;
+    border: none;
+}
+.tarif-narx h3 {
+    font-weight: 700;
+    font-size: 30px;
+}
+.tarif-narx2 {
+    margin-top: 29px;
+}
+.tarif-narx2 button {
+    background-color: rgba(198, 242, 93, 1);
+}
+.tarif-narx3 button{
+    background-color: #F9B21D;
+}
+
+.rr {
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: rgba(198, 242, 93, 1);
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    top: -140px;
+    z-index: 2;
+    left: 350px;
+    transform: rotate(-30deg);
+}
+.tugatish {
+    width: 90%;
+    height: 200px;
+    background-color: #0866f2;
+    color: white;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto 200px;
+}
+.tugatish p {
+    font-size: 40px;
+    width: 70%;
+}
+.tugatish p span {
+    font-weight: 700;
+}
+footer {
+    width: 90%;
+    margin: 40px auto;
+    height: 70vh;
+    display: flex;
+    justify-content: start;
+    gap: 130px;
+}
+.footer-logo {
+    margin-bottom: 50px;
+    /* padding-top: 10px;
+    margin-left: 30px; */
+}
+.footer-logo img{
+    margin-bottom: 70px;
+}
+.footer-content1 {
+    color: rgba(158, 158, 158, 1);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.footer-content2 {
+    width: 200px;
+}
+.footer-content3 {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    gap: 60px;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.footer-content3 i{
+    transition: 0.5s;
+}
+.footer-content3 i:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+.footer-content4 {
+    color: rgba(43, 82, 236, 1);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+.footer-bolim__item {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.footer-bolim__contents {
+    font-size: 24px;
+    font-weight: 400;
+    list-style: none;
+}
+.footer-bolim__contents li a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 0;
+    transition: 0.4s;
+}
+.footer-bolim__contents li a:hover {
+    color: #0866f2;
+    transition: 0.4s;
+}
+.footer-bolim__contents2 li{
+    padding: 5px 0;
+}
